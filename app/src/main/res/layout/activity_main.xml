@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/calibril"
+        android:text="Microsoft Teams"
+        android:textColor="#CC605CC6"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/images"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="Get started with your work,school or"
+        android:fontFamily="@font/calibril"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Personal Microsoft account"
+        android:fontFamily="@font/calibril"
+        android:layout_marginBottom="20dp"
+        ></TextView>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="   Enter email,phone, or Skype"
+        android:background="@drawable/border2"
+        android:layout_marginBottom="7dp"
+        android:textColorHint="#94000000"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/calibril"
+        ></EditText>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:id="@+id/signIn"
+        android:background="@drawable/myradius"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#CC605CC6"
+        android:layout_gravity="center"
+        android:fontFamily="@font/calibril"
+        ></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:text="Get help with signing in"
+        android:fontFamily="@font/calibril"
+        ></TextView>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textColor="#CC605CC6"
+        android:textStyle="bold"
+        android:fontFamily="@font/calibril"
+        android:text="Join a meeting"
+        android:textSize="12sp"
+android:background="@drawable/myborder"
+        android:layout_margin="10dp"
+        ></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/myborder"
+        android:fontFamily="@font/calibril"
+        android:text="SIGN UP FOR FREE                       "
+        android:textSize="12sp"
+        android:textColor="#CC605CC6"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/download41"
+        android:paddingLeft="70dp"
+        ></Button>
+</LinearLayout>
+
+

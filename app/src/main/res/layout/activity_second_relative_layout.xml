@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAEAD946"
+    tools:context=".SecondRelativeLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="23dp"
+        android:textColor="#BEF44336"
+        android:text="Which Languages do you now?"
+        android:id="@+id/Whlan"></TextView>
+
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Kotlin"
+        android:textSize="15dp"
+        android:textColor="#C3D11D1D"
+        android:id="@+id/checkbox1"
+        android:layout_below="@+id/Whlan"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Python"
+        android:textSize="15dp"
+        android:textColor="#C3D11D1D"
+        android:id="@+id/checkbox2"
+        android:layout_below="@+id/checkbox1"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Java"
+        android:textSize="15dp"
+        android:textColor="#C3D11D1D"
+        android:id="@+id/checkbox3"
+        android:layout_below="@+id/checkbox2"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Cpp"
+        android:textSize="15dp"
+        android:textColor="#C3D11D1D"
+        android:id="@+id/checkbox4"
+        android:layout_below="@+id/checkbox3"
+        ></CheckBox>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            ></Button>
+    </LinearLayout>
+
+
+</RelativeLayout>

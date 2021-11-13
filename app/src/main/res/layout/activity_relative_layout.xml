@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAEAD946"
+    tools:context=".RelativeLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANDROID ACADEMY"
+        android:textSize="30dp"
+        android:textColor="#BEF44336"
+        android:textStyle="bold"
+        android:id="@+id/andA"></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgV"
+        android:src="@drawable/download"
+        android:layout_below="@+id/andA">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which Laptop you are using?"
+        android:textStyle="italic"
+        android:id="@+id/whLp"
+        android:textSize="23dp"
+        android:textColor="#BEF44336"
+        android:layout_below="@+id/imgV"></TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grp"
+        android:layout_below="@+id/whLp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Windows"
+            android:textSize="15dp"
+            android:textColor="#BEF44336"
+            android:id="@+id/batch1"
+            ></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mac"
+            android:textSize="15dp"
+            android:textColor="#BEF44336"
+            android:id="@+id/batch2"></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linux"
+            android:textSize="15dp"
+            android:textColor="#BEF44336"
+            android:id="@+id/batch3"></RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Emu"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#BEF44336"
+        android:text="Do you use your Mobile as Emulator?"
+        android:textStyle="italic"
+        android:layout_below="@+id/grp"></TextView>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grp2"
+
+        android:layout_below="@+id/Emu">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="15dp"
+            android:textColor="#BEF44336"
+            android:id="@+id/yes" ></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="15dp"
+            android:textColor="#BEF44336"
+            android:id="@+id/no" ></RadioButton>
+
+    </RadioGroup>
+
+
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="585dp"
+
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subMit"
+            android:text="Next"
+            ></Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt3"
+        android:textSize="13dp"
+        android:layout_below="@+id/grp2"
+        android:textColor="#BEF44336"
+        android:text="Click on NEXT for CheckBox "></TextView>
+
+
+</RelativeLayout>
